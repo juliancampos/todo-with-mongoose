@@ -1,0 +1,12 @@
+POST http://localhost:3001/user
+Content-Type: application/json
+
+{
+   "name": "Julian Campos"
+}
+
+###
+
+GET http://localhost:3001/user
+Content-Type: application/json
+
