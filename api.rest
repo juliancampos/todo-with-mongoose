@@ -1,12 +1,20 @@
-POST http://localhost:3001/user
+POST http://localhost:3001/users
 Content-Type: application/json
 
 {
-   "name": "Julian Campos"
+   "name": "Alice"
 }
 
 ###
 
-GET http://localhost:3001/user
+GET http://localhost:3001/users
 Content-Type: application/json
 
+###
+
+PUT http://localhost:3001/users/650087475b549bd410c68dd9
+Content-Type: application/json
+
+{
+   "name": "Alice Campos"
+}
